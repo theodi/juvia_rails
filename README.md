@@ -26,7 +26,7 @@ JuviaRails.configure do |config|
   config.server_url    = 'http://your_juvia_server.example.com'
   config.site_key      = 'your_juvia_site_key_here'
   
-  config.comment_order = 'earliest_first' # 'latest_first' by default
+  config.comment_order = 'earliest-first' # 'latest-first' by default
 
 end
 ```
