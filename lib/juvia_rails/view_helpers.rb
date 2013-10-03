@@ -10,7 +10,7 @@ module JuviaRails
               var options = {
                   container    : '#juvia_comments',
                   site_key     : '#{JuviaRails.configuration.site_key}',
-                  topic_key    : '#{topic_key}' || location.href,
+                  topic_key    : '#{j topic_key}' || location.href,
                   topic_url    : location.href,
                   topic_title  : document.title || location.href,
                   include_base : !window.Juvia,
