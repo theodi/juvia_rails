@@ -53,7 +53,6 @@ module JuviaRails
                document.getElementsByTagName('body')[0]).appendChild(s);
             })();
           </script>
-        </div>
       EOF
       str.html_safe
     end
