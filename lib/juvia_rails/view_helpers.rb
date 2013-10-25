@@ -14,7 +14,7 @@ module JuviaRails
                   topic_url    : location.href,
                   topic_title  : document.title || location.href,
                   include_base : !window.Juvia,
-                  include_css  : !window.Juvia,
+                  include_css  : #{JuviaRails.configuration.include_css || "!window.Juvia"},
                   comment_order: '#{JuviaRails.configuration.comment_order}'
               };
 
