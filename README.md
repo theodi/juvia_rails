@@ -27,6 +27,7 @@ JuviaRails.configure do |config|
   config.site_key      = 'your_juvia_site_key_here'
   
   config.comment_order = 'earliest-first' # 'latest-first' by default
+  config.include_css = false # true by default
 
 end
 ```
