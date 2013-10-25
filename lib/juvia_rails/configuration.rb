@@ -7,7 +7,7 @@ module JuviaRails
       @site_key = nil
       @server_url = nil
       @comment_order = 'latest-first'
-      @include_css = nil
+      @include_css = '!window.Juvia'
     end
   end
 end
