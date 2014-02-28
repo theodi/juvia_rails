@@ -1,3 +1,11 @@
+[![Build Status](http://img.shields.io/travis/theodi/juvia_rails.svg)](https://travis-ci.org/theodi/juvia_rails)
+[![Dependency Status](http://img.shields.io/gemnasium/theodi/juvia_rails.svg)](https://gemnasium.com/theodi/juvia_rails)
+[![Coverage Status](http://img.shields.io/coveralls/theodi/juvia_rails.svg)](https://coveralls.io/r/theodi/juvia_rails)
+[![Code Climate](http://img.shields.io/codeclimate/github/theodi/juvia_rails.svg)](https://codeclimate.com/github/theodi/juvia_rails)
+[![Gem Version](http://img.shields.io/gem/v/juvia_rails.svg)](https://rubygems.org/gems/juvia_rails)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://theodi.mit-license.org)
+[![Badges](http://img.shields.io/:badges-7/7-ff6799.svg)](https://github.com/pikesley/badger)
+
 # JuviaRails
 
 This gem adds a helper for embedding [Juvia](https://github.com/phusion/juvia) comments into a Rails app.

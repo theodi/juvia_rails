@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["James Smith"]
   s.email       = ["james.smith@theodi.org"]
   s.summary     = "Helpers to make integrating Juvia comments simple"
+  s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE.md", "README.md"]
   s.test_files = Dir["test/**/*"]
@@ -22,6 +23,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "activesupport", '>= 3.2.0'
   s.add_development_dependency "activemodel", '>= 3.2.0'
   s.add_development_dependency "railties", '>= 3.2.0'
-  s.add_development_dependency "simplecov-rcov", '~> 0.2'
+  s.add_development_dependency "coveralls"
 
 end
