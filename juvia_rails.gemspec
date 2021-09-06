@@ -15,14 +15,14 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE.md", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.1"
+  s.add_dependency "rails", "~> 5.2.6"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "sqlite3", "~> 1.3.9"
   s.add_development_dependency "rspec", "~> 2.14"
-  s.add_development_dependency "actionpack", '>= 3.2.0'
-  s.add_development_dependency "activesupport", '>= 3.2.0'
-  s.add_development_dependency "activemodel", '>= 3.2.0'
-  s.add_development_dependency "railties", '>= 3.2.0'
-  s.add_development_dependency "coveralls"
+  s.add_development_dependency "actionpack", '~> 3.2.0'
+  s.add_development_dependency "activesupport", '~> 3.2.0'
+  s.add_development_dependency "activemodel", '~> 3.2.0'
+  s.add_development_dependency "railties", '~> 3.2.0'
+  s.add_development_dependency "coveralls", "~> 0.7.0"
 
 end
